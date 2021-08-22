@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="page" id="emergencypage" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link to stylesheet to format the page -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+
+    <!-- Heading descripting the final/next steps that the user needs to take -->
+    <h1 class="question" id="emergency">
+      If you are in serious pain and require immediate attention, call 9-1-1 or
+      search for hospitals near you
+    </h1>
+
+    <div id="maps" style="display: none; margin: 0 auto;">
+      <iframe id="map1" src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe id="map2" src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe id="map3" src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Introductory text prompting the user to use the embedded map to search for healthcare cemteres -->
+    <h3 style="text-align: center;">Search for Nearby Hospitals by Entering Your Address:<h3>
+    <input style="width: 40vh; display: block; margin : 0 auto;" type="text" id="address" height="height"><br><br>
+    <input style="display: block; margin : 0 auto;" type="submit" onclick="displayMaps()" value="Submit">
+
+        <!-- Button that lets the user take the survey again by linking to the home page -->
+        <button
+        type="button"
+        class="butt"
+        id="returntobeginning"
+        style="margin: 0 auto; text-align: center"
+      >
+        <a href="/HrnnHQ/index.html">Start Over</a>
+      </button>    
+  </body>
+</html>

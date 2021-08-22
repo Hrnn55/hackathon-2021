@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script type = "text/javascript" src="/js/test.js"></script>  
+</head>
+<body>
+    <h1
+      style="
+        font-size: 5vh;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+      "
+    >
+      Additional Information <br />
+      <h2
+      style="
+      font-size: 4vh;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        "
+      >Help Us Get To Know You Better! <br />
+      
+      <form action="/HrnnHq/add_info_results.html">
+        <label for="age">Age:</label>
+        <input type="text" id="age" age="age"><br><br>
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" weight="weight"><br><br>
+        <label for="height">Height:</label>
+        <input type="text" id="height" height="height"><br><br>
+        <label for="fat">Body Fat Percentage:</label>
+        <input type="text" id="fat" fat="fat"><br><br>
+        <form action="/HrnnHq/add_info_results.html">
+
+        <p>On Average, How Much Do You Excercise Per Week?</p>
+        <input type="radio" id="0-1 hours" name="excercise" value="0-1 hours">
+        <label for="0-1 hours">0-1 hours</label><br>
+        <input type="radio" id="1-2 hours" name="excercise" value="1-2 hours">
+        <label for="1-2 hours">1-2 hours</label><br>
+        <input type="radio" id="2-3 hours" name="excercise" value="2-3 hours">
+        <label for="2-3 hours">2-3 hours</label><br>
+        <input type="radio" id="3-4 hours" name="excercise" value="3-4 hours">
+        <label for="3-4 hours">3-4 hours</label><br>
+        <input type="radio" id="4-5 hours" name="excercise" value="4-5 hours">
+        <label for="4-5 hours">4-5 hours</label><br>
+        <input type="radio" id="5+ hours" name="excercise" value="5+ hours">
+        <label for="5+ hours">5+ hours</label> </label>
+
+        <p>On Average, How Much Water Do You Drink Per Day?</p>
+        <input type="radio" id="0-4 cups" name="water" value="0-4 cups">
+        <label for="0-4 cups">0-4 cups</label><br>
+        <input type="radio" id="5-8 cups" name="water" value="5-8 cups">
+        <label for="5-8 cups">5-8 cups</label><br>
+        <input type="radio" id="9-12 cups" name="water" value="9-12 cups">
+        <label for="9-12 cups">9-12 cups</label><br>
+        <input type="radio" id="13-16 cups" name="water" value="13-16 cups">
+        <label for="13-16 cups">13-16 cups</label><br>
+        <input type="radio" id="16+ cups" name="water" value="16+ cups">
+        <label for="16+ cups">16+ cups</label><br>
+
+        <p>On Average, How Much Do You Sleep Per Day?</p>
+        <input type="radio" id="less than 6 hours" name="sleep" value="less than 6 hours">
+        <label for="less than 6 hours">less than 6 hours</label><br>
+        <input type="radio" id="6-9 hours" name="sleep" value="6-9 hours">
+        <label for="6-9 hours">6-9 hours</label><br>
+        <input type="radio" id="10-12 hours" name="sleep" value="10-12 hours">
+        <label for="10-12 hours">10-12 hours</label><br>
+        <input type="radio" id="12+ hours" name="sleep" value="12+ hours">
+        <label for="12+ hours">12+ hours</label><br>
+        
+        <input type="submit" onclick="analyzeData()" value="Submit">
+      </form>
+
+</body>
+</html>

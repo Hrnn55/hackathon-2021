@@ -1,0 +1,90 @@
+/* Format for questions/headers (10% of screen width,aligned in the cenetr, aria font  */
+.question {
+  font-size: 10vw;
+  text-align: center;
+  font-family: "Aria";
+  text-decoration: cyan;
+}
+
+/* font size to 5% of screen only for emergency text on last page */
+#emergency {
+  font-size: 5vw;
+}
+
+/* formatting for all pages (height of 110% of screen for slight scroll and 40% of background is blue, 60% is white*/
+.page {
+  height: 110%;
+  background: linear-gradient(180deg, #87cefa 40%, white 40%);
+}
+
+/* background on last page is red and white */
+#emergencypage {
+  height: 110%;
+  background: linear-gradient(180deg, #ff4b45 40%, white 40%);
+}
+
+/* formatting and style for all buttons */
+.butt {
+  width: 25vw; /* width of 25% of screen */
+  height: 25vh; /*height of 25% of screen height */
+  border-radius: 100px; /* rounded button edges */
+  margin-top: 10%; /* verticle position towards the bottom */
+  margin-left: 5%; /* horizontal position */
+  background-color: yellow;
+  font-family: "Aria";
+  font-size: 3vw; /* font size in button 3% of screen width */
+  transition-duration: 0.4s; /* transition (when mouse hovers) lasts 0.4 seconds */
+}
+
+.butt:hover {
+  background-color: #87cefa; /* background color blue when mouse hovers */
+}
+
+/* button for first page */
+#b1 {
+  width: 15vw;
+  height: 14.5vh;
+  background-color: #92a0ad;
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 2.5vw;
+  transition-duration: 0.4s;
+}
+
+#continue {
+  width: 15vw;
+  height: 15vh;
+  background-color: #92a0ad;
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 2vw;
+  transition-duration: 0.4s;
+}
+
+/* Button on last page to return to beginning */
+#returntobeginning {
+  width: 9vw;
+  height: 9vh;
+  background-color: #92a0ad;
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 1.3vw;
+  transition-duration: 0.4s;
+}
+
+/* Used on recommendations page */
+#recommend {
+  font-size: 6.5vw;
+}
+
+/* remove all formatting from hyperlinks */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.list {
+  font-family: "Aria";
+  text-align: center;
+  font-size: 3vh;
+}
